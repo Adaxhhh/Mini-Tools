@@ -1,6 +1,6 @@
-# 🌳 Directory Tree Generator
+# 1.🌳 Directory Tree Generator
 
-A Python script to generate a visual directory structure for your current folder.
+A Ready to Use Python script to generate a visual directory structure for your current folder and writes it to Structure.md.
 
 ## ✨ Features
 
@@ -15,8 +15,9 @@ A Python script to generate a visual directory structure for your current folder
 2.  Run from your terminal:
 
     ```bash
+    #By default it ignores the files in .gitignore
     python tree_generator.py
-    # OR to include .gitignore entries:
+    # OR to exclude .gitignore entries:
     python tree_generator.py -u
     ```
 
